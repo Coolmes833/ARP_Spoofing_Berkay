@@ -1,6 +1,6 @@
-import scapy.all as scapy
 import time
 import optparse
+import scapy.all as scapy
 
 def get_mac_address(ip):
     arp_request_packet = scapy.ARP(pdst=ip)
